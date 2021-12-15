@@ -19,11 +19,18 @@ html {
   background: $background;
 }
 
-.main {
-  height: 100vh;
+
+.container{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 10rem;
-  flex-flow: column;
+  flex-direction: column;
+}
+
+.main {
+  background-color: blue;
+  height: 100%;
+}
+
+.sidebar{
+  background-color: brown;
+  height: 280px;
 }
